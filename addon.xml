@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.thefan" name="97.1 The Fan" version="1.0.0" provider-name="TheWalkingGeek">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+    	<source>https://github.com/thewalkinggeek/plugin.audio.thefan</source>
+        <summary lang="en">97.1 The Fan - Home of the Buckeyes</summary>
+        <license>GNU General Public License, v3</license>
+        <description lang="en">Your Local Source for Sports and The Buckeyes.</description>
+        <platform>all</platform>
+        <language>en</language>
+    </extension>
+</addon>

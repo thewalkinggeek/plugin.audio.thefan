@@ -1,2 +1,5 @@
-# plugin.audio.thefan
-Kodi Addon for 97.1 The Fan - Home of The Buckeyes
+97.1 The Fan Addon for Kodi
+-------------------------------------------
+
+97.1 The Fan Your Source for The Buckeyes
+
