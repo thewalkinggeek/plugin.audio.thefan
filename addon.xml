@@ -4,7 +4,7 @@
         <import addon="xbmc.python" version="2.20.0" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio</provides>
+        <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
     	<source>https://github.com/thewalkinggeek/plugin.audio.thefan</source>
