@@ -30,7 +30,7 @@ import xbmcaddon
 from xbmcgui import Dialog, ListItem
 from xbmcplugin import addDirectoryItem, endOfDirectory
 
-THEFAN_STREAM = 'http://14163.live.streamtheworld.com/WBNSFM_SC'
+THEFAN_STREAM = 'http://17413.live.streamtheworld.com/WBNSFMAAC'
 
 class StreamPlayer:
 
