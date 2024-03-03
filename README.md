@@ -2,6 +2,7 @@
 -------------------------------------------
 
 97.1 The Fan - Your Source for The Buckeyes
+Written By: Jon Schoenberger
 
 INSTALL:
 
