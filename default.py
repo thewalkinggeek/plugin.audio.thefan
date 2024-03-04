@@ -1,3 +1,4 @@
+# 97.1 The Fan Kodi Plugin
 
 from os.path import join
 from sys import argv
@@ -10,8 +11,10 @@ import xbmcaddon
 from xbmcgui import Dialog, ListItem
 from xbmcplugin import addDirectoryItem, endOfDirectory
 
+# Stream URL
 THEFAN_STREAM = 'https://oom-radiohio.streamguys1.com/cols/wbnsfm.mp3'
 
+# Player 
 class StreamPlayer:
 
     def __init__(self, url):
@@ -31,6 +34,7 @@ class StreamPlayer:
     def run(self, handle):
         endOfDirectory(int(handle))
 
+# Main Loop
 if __name__ == '__main__':
     thefan = StreamPlayer(THEFAN_STREAM)
     thefan.buildIndex()
